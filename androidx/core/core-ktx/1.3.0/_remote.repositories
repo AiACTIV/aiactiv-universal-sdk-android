@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jul 05 08:53:21 ICT 2023
+core-ktx-1.3.0.aar>=
+core-ktx-1.3.0.pom>=

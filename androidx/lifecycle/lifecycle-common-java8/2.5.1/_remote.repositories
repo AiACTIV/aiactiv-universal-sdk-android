@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jul 05 08:53:25 ICT 2023
+lifecycle-common-java8-2.5.1.jar>=
+lifecycle-common-java8-2.5.1.pom>=
