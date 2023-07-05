@@ -8,6 +8,7 @@ download_url="https://apache.osuosl.org/maven/maven-3/${maven_version}/binaries/
 
 # Download Maven
 echo Downloading...$download_url
+mkdir tmp
 curl -fsSL "$download_url" -o tmp/apache-maven.tar.gz
 #wget "$download_url" tmp/apache-maven.tar.gz
 
