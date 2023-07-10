@@ -16,6 +16,8 @@ curl -fsSL "$download_url" -o tmp/apache-maven.tar.gz
 tar xf tmp/apache-maven.tar.gz -C tmp
 
 # Set up environment variables
+echo export MAVEN_HOME="tmp/apache-maven-${maven_version}" >> env.sh
+echo export PATH="$MAVEN_HOME/bin:$PATH" >> env.sh
 export MAVEN_HOME="tmp/apache-maven-${maven_version}"
 export PATH="$MAVEN_HOME/bin:$PATH"
 
