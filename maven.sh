@@ -1,9 +1,8 @@
 #!/bin/bash
 
+# Define the desired Maven version
+maven_version=$1
 if [ ! -f "tmp/apache-maven.tar.gz" ]; then
-  # Define the desired Maven version
-  maven_version=$1
-
   # Define the download URL
   download_url="https://apache.osuosl.org/maven/maven-3/${maven_version}/binaries/apache-maven-${maven_version}-bin.tar.gz"
 
