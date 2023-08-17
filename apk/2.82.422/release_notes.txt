@@ -1,0 +1,3 @@
+- bugfix/crash-when-inventories-empty
+- feature/DMP-53
+- bugfix/ADN-1235_new
