@@ -3,7 +3,7 @@
   <groupId>io.aiactiv</groupId>
   <artifactId>universal-sdk-github</artifactId>
   <versioning>
-    <release>0.1.39</release>
+    <release></release>
     <versions>
       <version>0.1.10</version>
       <version>0.1.11</version>
@@ -35,7 +35,8 @@
       <version>0.1.37</version>
       <version>0.1.38</version>
       <version>0.1.39</version>
+      <version></version>
     </versions>
-    <lastUpdated>20231006022916</lastUpdated>
+    <lastUpdated>20231024102234</lastUpdated>
   </versioning>
 </metadata>
